@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Real Estate</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.realestate.com.au/property-house-qld-image+flat-145375756">Properties</a></li>
+                <li><a href="#agents">Agents</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://youtu.be/mH120h84oZk?t=1"> Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="properties">
+            <h2>Properties</h2>
+            <div class="property">
+                <img src="https://i1.au.reastatic.net/346x346-format=webp,fit,sharpen,quality=50/3ceabde5648b9171b26a41283cd658a2d1ea154976e5ec3a134a8bc03184ac89/bentley-series-home-design.jpg" alt="Property 1">
+                <h3>Property 1</h3>
+                <p>Price: $100,000</p>
+            </div>
+            <div class="property">
+                <img src="https://i1.au.reastatic.net/346x346-format=webp,fit,sharpen,quality=50/25a1fb791ccd772ebc40a90e17a15f9554cf1bb09347924f789bca6239774b11/atlanta-series-home-design.jpg" alt="Property 2">
+                <h3>Property 2</h3>
+                <p>Price: $200,000</p>
+            </div>
+             <div class="property">
+                <img src="https://i1.au.reastatic.net/800x600-format=webp/7edea98bbe713bdcd4449351c204221e8e6935ef06415a4408e932e92c439aca/hero-image.jpg" alt="Property 2">
+                <h3>Property 2</h3>
+                <p>Price: $400,000</p>
+            </div>
+            <div class="property">
+                <img src="https://i1.au.reastatic.net/346x346-format=webp,fit,sharpen,quality=50/5b3c9c9d44cf39dc4945461b3df4731065edf41f691caf8aac49446595eb0a27/madrid-series-home-design.jpg" alt="Property 2">
+                <h3>Property 2</h3>
+                <p>Price: $600,000</p>
+            </div>
+        </section>
+        <section id="agents">
+            <h2>Agents</h2>
+            <div class="agent">
+                <img src="https://media.istockphoto.com/id/1809391035/photo/high-angle-view-of-real-estate-agent-talking-with-young-couple-at-empty-apartment.webp?s=1024x1024&w=is&k=20&c=B1TMD5sqHxPMlrEYOrOiwpjeXzyuvtLN6xctWiZsBtw=" alt="Agent 1">
+                <h3>Agent 1</h3>
+                <p>Phone: 123-456-7890</p>
+            </div>
+            <div class="agent">
+                <img src="https://media.istockphoto.com/id/1369399712/photo/happy-family-couple-discussing-interior-design-of-new-apartment-man-talking-with-woman-in.jpg?s=1024x1024&w=is&k=20&c=LCe1-7zwOnLrDKh2P5oP2yE0raEb3tHbNkT5GC6rDMQ=" alt="Agent 2">
+                <h3>Agent 2</h3>
+                <p>Phone: 987-654-3210</p>
+            </div>
+        </section>
+        <section id="video">
+    <h2>Virtual Tour</h2>
+    <video width="100%" controls>
+        <source src="https://youtu.be/mH120h84oZk?t=1" type="video/mp4">
+        
+    </video>
+</section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Real Estate</p>
+    </footer>
+</body>
+</html>
+
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #2E4053;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+property {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+agent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+video {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+video h2 {
+    margin-top: 0;
+}
+
+video video {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+</styles>
+
